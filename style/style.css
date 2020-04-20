@@ -1,0 +1,127 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+#map {
+	position: relative;
+	overflow: hidden;
+	width: 100%;
+	height: 100%;
+}
+
+.title {
+	position: absolute;
+	font-size: 80px;
+	color: black;
+	text-transform: uppercase;
+	z-index: 100;
+	font-weight: bold;
+	top: 100px;
+	left: 100px;
+}
+
+.search-container {
+	position: absolute;
+	width: 400px;
+	height: 60px;
+	background-color: gray;
+	z-index: 100;
+	top: 230px;
+	left: 100px;
+	border-radius: 35px;
+	display: flex;
+}
+
+.search {
+	flex-grow: 1;
+	display: flex; 
+	align-items: center;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+#postal-code-input {
+	flex-grow: 1;
+	background-color: transparent;
+	border: none;
+	font-size: 18px;
+}
+
+.search-container input:focus {
+	outline: none;
+}
+
+i {
+	font-size: 25px;
+	color: white;
+}
+
+.store-list-container {
+	position: absolute;
+	width: 400px;
+	z-index: 100;
+	background-color: white;
+	top: 320px;
+	left: 100px;
+	border-radius: 35px;
+	bottom: 20px;
+	display: flex;
+}
+
+.store-phone-number {
+	color: #b5adad;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+.store-number{
+	width: 30px;
+	height: 30px;
+	display: flex;
+	background-color: #454e53;
+	color: white;
+	align-items: center;
+	justify-content: center;
+	border-radius: 50%;
+}
+
+.store-address span {
+	display: block;
+}
+
+.store-container-background {
+	display: flex;
+	margin-top: ;
+	margin-bottom: ;
+	border-radius: 18px;
+	transition: all 0.2s ease-in-out;
+}
+
+.stores-list {
+	padding-left: 20px;
+	padding-right: 20px;
+	overflow-y: scroll;
+	flex-grow: 1;
+}
+
+.store-info-conatiner {
+	flex-grow: 1;
+}
+
+.store-container {
+	border-bottom: ;
+	cursor: pointer;
+}
+
+.store-number-container {
+	display: flex;
+	align-items: center;
+}
+
+.store-container-background:hover {
+	background-color: lightgray;
+}
