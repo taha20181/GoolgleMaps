@@ -7,12 +7,12 @@ var locationSelect;
 
 
 function initMap() {
-  var losAngeles = {
-  	lat: 34.063380,
-  	lng: -118.358080
+  var india = {
+  	lat: 20.5937,
+  	lng: 78.9629
   };
   map = new google.maps.Map(document.getElementById('map'), {
-    center: losAngeles,
+    center: india,
     zoom: 11,
     mapTypeId: 'roadmap',
   });
@@ -38,6 +38,7 @@ function searchStores() {
 		});
 	} else {
 		foundStores = stores;
+		console.log(foundStores);
 	}
 
 	clearLocations();
@@ -110,7 +111,7 @@ function showStoreMarkers(stores) {
 		var address = store.addressLines[0];
 		createMarker(latlng, name, address, index);
 		bounds.extend(latlng);
-	})
+	});
 	map.fitBounds(bounds);
 }
 
