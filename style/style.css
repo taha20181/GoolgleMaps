@@ -28,7 +28,7 @@ body {
 	position: absolute;
 	width: 400px;
 	height: 60px;
-	background-color: gray;
+	background: linear-gradient(to right, hsl(6, 100%, 80%), hsl(335, 100%, 65%));
 	z-index: 100;
 	top: 230px;
 	left: 100px;
@@ -95,10 +95,10 @@ i {
 
 .store-container-background {
 	display: flex;
-	margin-top: ;
-	margin-bottom: ;
 	border-radius: 18px;
 	transition: all 0.2s ease-in-out;
+	padding: .5rem;
+	justify-content: space-between;
 }
 
 .stores-list {
@@ -113,8 +113,8 @@ i {
 }
 
 .store-container {
-	border-bottom: ;
 	cursor: pointer;
+	padding: .5rem;
 }
 
 .store-number-container {
