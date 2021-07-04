@@ -27,4 +27,4 @@
 **DONE**
 
 Click here to view the live project
-[Google-Maps](pharmfinder.imfast.io/)
+[Google-Maps](https://starbucks-locator.netlify.app)
